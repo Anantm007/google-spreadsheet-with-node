@@ -1,5 +1,4 @@
 const { GoogleSpreadsheet } = require('google-spreadsheet');
-const { promisify } = require("util");
 const creds = require("./credentials.json");
 
 // spreadsheet key is the long id in the sheets URL
